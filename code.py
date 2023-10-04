@@ -24,7 +24,8 @@ class User:
         with open('users.json', 'a') as file:
             json.dump(user_data, file)
             file.write('\n')
-toot toot shed 7elak ya katkot
+shaza shaban 
+shaza tany
     def login(self, email, password):
         # Check if the email and password match an existing user in the JSON file
         with open('users.json', 'r') as file:
